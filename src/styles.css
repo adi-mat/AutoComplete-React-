@@ -1,0 +1,38 @@
+.textBox {
+    width: 99%;
+    color: #666;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.searchBox {
+    height:100px;
+    width: 100%;
+}
+
+.autocomplete{
+    background: #fff;
+    text-align: center;
+    width: 400px;
+    position: relative;
+}
+
+.dialog{
+  width: 100%;
+  text-align: left;
+  min-height: 0px;
+  max-height: 150px;
+  overflow: scroll;
+  border: 1px solid #f6f6f6;
+}
+
+.dialog div{
+  padding: 3px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.dialog div:hover{
+  background: #f2f2f2;
+}
